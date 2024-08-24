@@ -1,0 +1,69 @@
+Git commands:
+
+git --version : To see the installed version of the git.
+
+pwd : pwd stands for present working directory(folder).
+
+clear : To clear command is used to clear the terminal.
+
+ls (list files): which is shows the files which are in present directory.
+
+ls -a (list files): -a is used to see the hidden files which are not visible.
+
+git config --global user.name "repo name"
+git config --global user.email "GitHub email"
+
+git config --list : To see the configuration details.
+
+credentials.helper : Not a command, this is like a feature which stores our credentials such as ( email , username)
+
+
+
+local (laptop) : The files which are in users machine.
+remote (GitHub) : The files which are present in the GitHub repository.
+
+git clone <repo-link> (Click the code button to get the clone option) : cloning the repository, https is the one of the easiest way to clone the repository into a local machine. 
+
+cd (change directory/folder).
+
+git status : displays the current status of the code.
+
+Whenever we modify the content/code, we have to do two things 1. git add <file name> 2. git commit -m "what changes made has been made - message".
+
+Types of status (git status):
+	
+	1. untracked : new files that git doesn't yet track
+	2. modified  : changed ( The content in the file is modified )
+	3. staged    : file is ready to be committed
+	4. unmodified: unchanged ( The content in the file is not modified ) 
+
+Add & Commit:
+	
+	add - adds new or changed files in your working directory to Git staging area.
+		git add <- file name -> ( To add single file)
+		git add . ( To add multiple files at a time )
+	commit - it is the record of change
+		git commit -m "some message"
+
+Push:
+
+	push - upload local repository content to remote repository
+		git push origin main 
+ 
+mkdir ( Make new directory ) : to create a new directory using command.
+ 
+================================================================================
+
+if the new directory has been created in local repository ( which is in laptop ) now we 
+want to make that local repo as remote repo 
+then we have run following commands.
+
+	1. git init
+	2. git remote add origin <-repository link->
+	3. git remote -v ( To verify remote, which repository currently we are using)
+	4. git branch  ( To check branch ) ( Main branch is default as per GitHub )
+	5. git branch -M <new branch name> ( to rename branch ) 
+	6. git push origin main (push the directories after changing the name of the branch )
+
+If we are working with the same branch for a long time then no need to use the 6 command frequently then we have to keep our branch as upstream git push -u branchName instead of using 6th command we can use git push 
+	
