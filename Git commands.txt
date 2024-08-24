@@ -8,7 +8,7 @@ clear : To clear command is used to clear the terminal.
 
 ls (list files): which is shows the files which are in present directory.
 
-ls -a (list files): -a is used to see the hidden files which are not visible.
+ls -a (list files) / ls -force ( for windows ): -a is used to see the hidden files which are not visible.
 
 git config --global user.name "repo name"
 git config --global user.email "GitHub email"
