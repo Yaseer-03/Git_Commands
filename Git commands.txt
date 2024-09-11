@@ -10,7 +10,7 @@ ls (list files): which is shows the files which are in present directory.
 
 ls -a (list files) / ls -force ( for windows ): -a is used to see the hidden files which are not visible.
 
-git config --global user.name "repo name"
+git config --global user.name "user name"
 git config --global user.email "GitHub email"
 
 git config --list : To see the configuration details.
